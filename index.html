@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rent-a-Book</title>
 </head>
+
 <body style="background-image: url(components/45473.png);">
     <nav>
         <img src="" class="logo" alt="">
-        <a href="#"><span>Home</span></a>
+        <a href="#home"><span>Home</span></a>
         <a href="#book"><span>Books</span></a>
         <a href="#"><span>Tools</span></a>
     </nav>
     <hr>
     <br>
-    <div class="container">
+    <div class="container" id="home">
         <div class="text">
             <h2>The best place to Rent a Book.</h2>
         </div>
@@ -24,6 +27,21 @@
         </div>
     </div>
 
-    <div class="books" id="book"></div>
+    <div class="books" id="book">
+        <div class="images">
+            <div class="photo">
+                <img src="components/mains.jpeg" alt="photo" />
+            </div>
+
+            <div class="photo">
+                <img src="components/ncert.jpeg" alt="photo" />
+            </div>
+
+            <div class="photo">
+                <img src="components/upsc.jpeg" alt="photo" />
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
