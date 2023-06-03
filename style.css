@@ -3,6 +3,24 @@
     
 }
 
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 403px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+}
+.section img {
+    height: 400px;
+}
+.section h2{
+    color: #fff;
+}
+
+/* Books */
+
 .images {
     display: flex;
     flex-wrap: wrap;
